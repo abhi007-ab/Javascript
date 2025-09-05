@@ -55,3 +55,24 @@ const users = [
 ]
 
 // console.log(users[1].email);  // abc@gmail.com
+
+
+
+
+
+
+
+
+
+// Destructuring
+
+const course = {
+    coursename: "js",
+    price: "999",
+    courseInstructor: "abhi"
+}
+
+const {courseInstructor: instuctor} = course
+// console.log(courseInstructor);
+console.log(instuctor);   // For Destructuring we can use '{}' to.....
+
