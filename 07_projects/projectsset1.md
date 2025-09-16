@@ -5,6 +5,9 @@
 
 # Solution code
 
+# Write your code in .js file on stackblitz (chaiaurcode)    
+## chaiaurcode.js
+
 ## project 1 -----
 
 ```javascript
