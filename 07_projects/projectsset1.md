@@ -11,6 +11,7 @@
 ## project 1 (colorchanger)
 
 ```javascript
+// one.js  -> solution
 
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector('body');
@@ -43,6 +44,8 @@ buttons.forEach(function (button) {
 ## project 2  (BMICalculator)
 
 ```javascript
+// two.js  -> solution
+
 const form = document.querySelector('form')
 
 form.addEventListener('submit', function(e){
@@ -74,5 +77,34 @@ results.innerHTML = `<span>${message}</span>`;
 }
 
 })
+
+```
+
+
+## project 3  (DigitalClock)
+
+
+```javascript
+// three.js  -> solution
+
+const clock = document.getElementById('clock')
+
+// const clock = document.querySelector('#clock')
+
+
+setInterval(function () {
+  let date = new Date()
+  // console.log(date.toLocaleTimeString());
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000)
+
+```
+
+
+## project 4  (GuessTheNumber)
+
+```javascript
+// four.js  -> solution
+
 
 ```
